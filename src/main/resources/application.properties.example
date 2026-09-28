@@ -10,5 +10,11 @@ spring.jpa.show-sql=false
 spring.jpa.properties.hibernate.format_sql=false
 spring.jpa.open-in-view=false
 
+jwt.secret=replace-with-a-random-string-of-at-least-32-characters
+jwt.expiration-ms=86400000
+
+admin.username=admin
+admin.password=your_chosen_password
+
 server:
 port: 8080
